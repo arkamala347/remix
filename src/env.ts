@@ -4,11 +4,11 @@ import { cleanEnv, num, str } from 'envalid'
 config()
 
 export default cleanEnv(process.env, {
-  BOT_TOKEN: str(),
-  STRING_SESSION: str(),
-  API_ID: num(),
-  API_HASH: str(),
-  LOCALE: str({ default: 'en' }),
-  COOKIES: str({ default: '' }),
-  MAX_PLAYLIST_SIZE: num({ default: 10 }),
-})
+BOT_TOKEN=
+STRING_SESSION=
+API_ID=
+API_HASH=
+LOCALE=en
+MAX_PLAYLIST_SIZE=10
+COOKIES=
+
